@@ -1,0 +1,527 @@
+/* General Styles */
+body {
+    background: rgba(255, 247, 247, 1);
+    
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;    
+  }
+  
+  .title {
+  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 86.63px;
+  letter-spacing: -5px;
+  text-align: center;
+  color: rgba(43, 43, 57, 1);
+  margin-bottom: 10px;
+  
+  
+  }
+  
+  .hero-p {
+  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28.88px;
+  text-align: center;
+  color: rgba(95, 95, 117, 1);
+  margin-bottom: 29px;
+  
+  
+  }
+  
+  .cta-buttons a {
+    padding: 10px 50px;
+    margin: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;  
+    font-size: 18px;
+    
+  }
+  
+  .btn.primary {
+    background-color: #970C10;
+    color: #fff;
+  }
+  
+  .btn.secondary {
+    background-color: transparent;
+    border: 2px solid #970C10;
+    color: #970C10;
+  }
+  
+  .hero-image {
+    margin-top: 50px;
+    width: 100%;
+  }
+  
+  
+  /* Campaign */
+  
+  /* Section Styling */
+  .title2 {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 60.16px;
+    letter-spacing: -3px;
+    text-align: center;
+    color: #2B2B39;
+    margin-top: 60px;
+  }
+  
+  .dec {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: regular;
+    line-height: 24.06px;
+    text-align: center;
+    color: #5F5F75;
+    margin-top: 15px;
+    margin-bottom: 60px;
+  
+  }
+  .card-content{
+    text-align: left;
+  }
+  
+  
+  .campaign-features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  
+  
+  /* Feature List Styling */
+  .feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 50px;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .icon img {
+    margin-top: 50%;
+    width: 72px;
+    height: 72px;    
+  }
+  
+  
+  
+  .text h3 {
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 29px;
+    color: #333;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-bottom: 5px;
+  }
+  
+  .text p {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: regular;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .campaign-features {
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .campaign-content {
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .campaign-illustration img {
+        margin-top: 30px;
+    }
+  
+    .feature-list {
+        padding-right: 0;
+        text-align: center;
+    }
+  
+    .feature-item {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  
+  /* Campaign Options (Fundraiser & Donor Cards) */
+  .campaign-options {
+    display: flex;
+    height: 630px;   
+  }
+  
+  .option-card {
+    width: 50%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    color: #fff;
+    position: relative;
+    padding-top: 150px;   
+  }
+  
+  .option-card h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43.38px;
+    letter-spacing: -3px;
+    margin: 20px 0;
+  }
+  
+  .option-card p {
+    font-family: sans-serif;
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+  }
+  
+  .fundraiser {
+    background-color: #A91C1C;
+  }
+  
+  .donor {
+    background-color: #F9E6E6;
+    color: #A91C1C;
+  }
+  
+  .start-campaign-btn, .donate-now-btn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 10px;
+    color: #A91C1C;
+    background-color: #fff;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .start-campaign-btn:hover, .donate-now-btn:hover {
+    background-color: #E6B8B8;
+  }
+  
+  .donor .donate-now-btn {
+    background-color: #A91C1C;
+    color: #fff;
+  }
+  
+  .ficon {
+    
+    top: 20px;
+    left: 20px;
+  }
+  
+  .ficon img {
+    display: inline;
+    width: 96px;
+    height: 96px;
+  }
+  
+  
+  /* Trusted Donation Platform Section */
+  
+  
+  
+  .CardContainer {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .header {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 90px;
+  }
+  .card {
+    background-color: #FFEFEF;
+    border-radius: 16px;
+    padding: 10px;
+    max-width: 359px;
+    max-height: 448px;
+    text-align: center;
+  }
+  .card-icon {
+    height: 96px;
+    width: 96px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: inline;
+  }
+  .card-title {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43.38px;
+    letter-spacing: -2px;
+    color: #2B2B39;
+    margin-bottom: 20px;
+  }
+  .card-text {
+    font-family: sans-serif;
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #5F5F75;
+    margin-bottom: 30px;
+  }
+  
+  .banner {
+    background-color: #970C10;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 100px;
+    text-align: center;
+  }
+  .stat {
+    flex: 1;
+    padding: 50px;
+  }
+  .amount {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    letter-spacing: -5px;
+  }
+  .description {
+    font-family: sans-serif;
+    font-weight: regular;
+    font-size: 24px;
+    margin-top: -20px;
+  }
+  
+  /* Get start section */
+  .get-started {
+    text-align: center;
+    padding: 20px;
+  }
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+    margin-top: -60px;
+  }
+  .step {
+    flex: 1;
+    padding: 70px;
+  }
+  .step-icon {
+    height: 96px;
+    width: 96px;
+    margin-bottom: 20px;
+    display: inline;
+  }
+  .step-title {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29.38px;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+    color: #2B2B39;
+  }
+  .step-description {
+    font-family: sans-serif;
+    font-weight: regular;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #5F5F75;
+  }
+  
+  
+  /* Donation Carousel */
+  .donation-carousel {
+  text-align: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+  }
+  .donation-carousel .dec{
+  margin-bottom: -100px;
+  }
+  .carousel-content{
+  display: flex;
+  margin: 10%;
+  }
+  .carousel-arrow{
+  width: 30px;
+  height: 58px;
+  margin-top: 20%;
+  }
+  
+  .carousel {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px; 
+  justify-content: space-between; 
+  }
+  
+  .campaign-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 360px;
+  max-height: 588px;
+  margin: 20px;
+  }
+  
+  .campaign-card img {
+  width: 360px;
+  height: 272px;
+  border-radius: 10px;
+  border-radius: 0px;
+  
+  }
+  
+  .campaign-info {
+  text-align: left;
+  margin-top: 15px;
+  padding: 20px;
+  }
+  
+  .campaign-info span {
+  font-family: sans-serif;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.5px;
+  color: #5F5F75;
+  }
+  
+  .campaign-info h3 {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -1px;
+  color: #2B2B39;
+  margin: 10px 0;
+  }
+  
+  .campaign-info p {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5F5F75;
+  margin-bottom: 20px;
+  }
+  
+  /* Progress bar */
+  .campaign-progress {
+  margin-bottom: 15px;
+  }
+  .progress-text{
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5F5F75;
+  margin-bottom: 20px;
+  }
+  .progress-bar {
+  width: 100%;
+  background-color: #EDEDED;
+  height: 10px;
+  border-radius: 5px;
+  position: relative;
+  }
+  
+  .progress {
+  background-color: #A20000;
+  height: 100%;
+  border-radius: 5px;
+  }
+  
+  .campaign-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .campaign-footer img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  }
+  
+  .all-campaigns-btn {
+  border: 2px solid #970C10;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #970C10;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  cursor: pointer; 
+  margin-bottom: 50px;
+  margin-top: -60px;
+    
+  }
+  .all-campaigns-btn img{
+  display: inline;
+  margin-left: 15px;
+  }
+  
+  .all-campaigns-btn:hover {
+  background-color: #A20000;
+  color: #fff;
+  }
+  .backer{
+  border-radius: 8px;
+  padding: 3px 6px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #FFFCF7;
+  background-color: #970C10;
+  display: flex;
+  font-size: 12px;
+  }
+  .backer img{
+  margin-top: 2.5px;
+  margin-right: 5px;
+  width: 10px;
+  height: 11px;
+  }
+  
+  
+  

@@ -1,0 +1,437 @@
+@media only screen and (max-width: 500px) {
+  .list_outer {
+    width: 400px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .inner_OuterDiv {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .inner_OuterDiv {
+    height: 100% !important;
+
+    position: relative;
+  }
+  .innerLeft {
+    height: 50 !important;
+  }
+  .inner_element {
+    flex: 1 !important;
+  }
+
+  .image {
+    height: 40vh !important;
+    width: 100% !important;
+    background-size: cover !important;
+  }
+  .cantainer {
+    overflow: hidden;
+  }
+  .innerLeft {
+    height: 500px;
+  }
+
+  .CampName {
+    font-size: 25px !important;
+  }
+
+  .Right-Up h4 {
+    font-size: 12px !important;
+    font-weight: 400;
+  }
+  .Right-Up p {
+    font-size: small !important;
+  }
+  .gmail,
+  .abc,
+  .amount {
+    font-size: 12px !important;
+  }
+  .list_outer {
+    width: 400px !important;
+  }
+  .tableouter thead tr:nth-child(1) {
+    transform: translateX(80px);
+  }
+  .tableouter thead tr th:nth-child(2) {
+    transform: translateX(-20px);
+  }
+  .tableouter thead tr th:nth-child(3) {
+    transform: translateX(-170px);
+  }
+  .abc {
+    margin: 0;
+    transform: translateX(80px);
+  }
+  .gmail {
+    margin-left: -10px;
+    transform: translateX(70px);
+  }
+  .amountA {
+    margin: 0;
+    position: relative;
+    transform: translateX(-90px);
+  }
+
+  .list_outer h1 {
+    font-size: 25px !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .CampName {
+    font-size: 30px !important;
+  }
+
+  .Right-Up h4 {
+    font-size: 18px !important;
+  }
+  .Right-Up p {
+    font-size: 12px !important;
+  }
+  .progress_details {
+    font-size: 25px !important;
+  }
+}
+
+.cantainer {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inner_OuterDiv {
+  position: relative;
+
+  /*  */
+  height: 100%;
+  width: 70%;
+  display: flex;
+}
+.inner_element {
+  /*  */
+  flex: 1;
+}
+.innerLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left_elements {
+  width: 90%;
+
+  /*  */
+}
+.left_top {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 3;
+}
+.left_Bottom {
+  margin-top: 10px;
+  height: 20%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.image {
+  position: relative;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+  margin-top: 15px;
+  align-self: center;
+  height: 50vh;
+  width: 100%;
+  background-image: url(../assets/images/CharityCampain.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: center;
+  margin-bottom: 10px;
+}
+.imageContainer {
+  height: 35rem;
+
+  width: 100%;
+}
+.Right-Up {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  /*  */
+  justify-content: center;
+  flex-direction: column;
+}
+.CampName {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.Right-Up h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.innerRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Right-Up p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.Right-Middle {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.icons {
+  height: 50px;
+  width: 50px;
+  /*  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 1s;
+}
+.icons:hover {
+  height: 35px;
+  width: 35px;
+}
+.Donate_element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Donate_element {
+  border: 1px solid green;
+  padding: 13px 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: green;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 128, 0, 0.3); /* subtle shadow */
+}
+
+.Donate_element:hover {
+  background-color: #28a745; /* brighter green on hover */
+  transform: translateY(-3px); /* small lift effect */
+  box-shadow: 0 8px 12px rgba(0, 128, 0, 0.4); /* deeper shadow */
+}
+
+.Donate_element:active {
+  transform: translateY(0); /* reset button on click */
+  box-shadow: 0 2px 4px rgba(0, 128, 0, 0.2); /* subtle shadow on click */
+}
+
+form input {
+  border: 1px solid gray;
+}
+.donate_Form {
+  margin-top: 10%;
+  position: relative;
+  width: 80%;
+  height: 100%;
+}
+
+.formdiv {
+  /*  */
+  margin: 0;
+  padding: 0;
+}
+
+.inputField:focus {
+  border: none;
+}
+input_outer {
+  width: 50%;
+}
+
+.progress {
+  width: 20rem;
+  height: 1.5rem;
+  border-radius: 50px;
+  margin-top: 10px;
+  border: 1px solid green;
+}
+
+.progress_details {
+  font-size: 30px;
+  margin-top: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.Tbody td {
+  height: 60px;
+}
+.Tbody thead tr {
+  margin-bottom: 10px;
+}
+.Tbody {
+  display: flex;
+  flex-direction: column;
+}
+.abc {
+  height: 40px;
+  background-image: url(../assets/images/userlist.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.tableouter tr {
+  width: 60vh;
+
+  display: flex;
+}
+.tableouter thead tr {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.tableouter tr :nth-child(1) {
+  width: 60px;
+  display: flex;
+  align-items: center;
+}
+.tableouter tr :nth-child(2) {
+  width: fit-content;
+  flex: 1;
+  display: flex;
+  align-items: safe;
+
+  justify-content: flex-start;
+  padding-left: 10%;
+}
+.tableouter tr :nth-child(3) {
+  width: 10%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tableouter tr :nth-child(3) div {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+.list {
+  position: relative;
+
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list_outer {
+  position: relative;
+  padding: 10px;
+  width: 70%;
+  margin-bottom: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list_outer h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.gmail,
+.abc,
+.amount {
+  font-size: 15px;
+}
+
+.raised_amount {
+  font-size: 20px;
+}
+
+.innerRight {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.innerRight:hover {
+  -webkit-box-shadow: 14px 15px 54px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 15px 54px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 14px 15px 54px -2px rgba(0, 0, 0, 0.75);
+}
+
+.date {
+  align-items: flex-end;
+
+  bottom: 0px;
+}
+.donatedCont {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donatesicon {
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+
+  background-image: url(../assets/images/hands-heart.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.CampainDetails {
+  margin-top: 10px;
+  width: 85%;
+}
+.CampainDetails p {
+  font-size: 15px;
+}
+.tableouter {
+  position: relative;
+
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reactionButtonOuter {
+  margin-top: 25px;
+  margin-bottom: 10px;
+
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+.reactionButtonOuter:hover {
+  -webkit-box-shadow: 14px 15px 54px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 15px 54px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 14px 15px 54px -2px rgba(0, 0, 0, 0.75);
+}
